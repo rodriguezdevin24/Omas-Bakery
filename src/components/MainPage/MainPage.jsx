@@ -6,14 +6,16 @@ import React from 'react';
 // import FullCard from '../FullCard/FullCard';
 // import SplitCard from '../SplitCard/SplitCard';
 // import TableCellCard from '../TableCellCard/TableCellCard';
+import Navbar from '../NavBar/NavBar';
+import '../NavBar/navbar.css';
+
 
 const MainPage = () => {
-    return (
-      <div>
-        <h1>Omas Bakery</h1>
-      </div>
-    );
-  }
-  
-  export default MainPage;
-  
+  return (
+    <div>
+      <Navbar /> {/* Add the Navbar component */}
+    </div>
+  );
+};
+
+export default MainPage;
