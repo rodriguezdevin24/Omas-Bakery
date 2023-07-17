@@ -1,21 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../NavBar/navbar.css'; // Import your CSS file
-import logo from '../../SEI collab Assets/Symbols/Donut Logo.svg';
+import { useTheme } from '../theme';
 
 function Navbar() {
-  const [theme, setTheme] = useState('light');
-
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  };
-
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme]);
+  const [theme, toggleTheme] = useTheme();
 
   return (
     <nav className={`Navbar ${theme}`}>
@@ -24,7 +12,7 @@ function Navbar() {
         <span className="slider"></span>
       </label>
       <h1>Omas Bakery</h1>
-      <img src={logo} alt="logo" />
+      <img src="/images/Symbols/Donut Logo.svg" alt="logo" />
     </nav>
   );
 }
