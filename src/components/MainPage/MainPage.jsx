@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { ThemeProvider } from '../ThemeContext';
 import Navbar from '../NavBar/NavBar';
 import Carousel from '../Carousel/Carousel';
