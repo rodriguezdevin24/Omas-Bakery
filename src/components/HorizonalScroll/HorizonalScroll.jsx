@@ -7,13 +7,13 @@ import { useTheme } from '../theme';
 const HorizonalScroll = () => {
   const [theme, setTheme] = useTheme();
   
-  const toggleTheme = () => {
-    if (theme === 'dark') {
-      setTheme('light');
-    } else {
-      setTheme('dark');
-    }
-  };
+//   const toggleTheme = () => {
+//     if (theme === 'dark') {
+//       setTheme('light');
+//     } else {
+//       setTheme('dark');
+//     }
+//   };
 
   useEffect(() => {
     document.body.className = theme;
