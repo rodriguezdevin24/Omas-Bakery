@@ -1,3 +1,17 @@
+.dark .fullcard-whole {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #222222;
+  margin-bottom: 20px;
+  margin-left: 13px;
+  width:363px;
+  border-radius: 10px;
+}
+
+.fullcard-whole {
+  margin-left: 13px;
+}
 .UPFI-light-full-card {
     height: 370px;
     width: 363px;
@@ -6,6 +20,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    /* margin-left: 13px; */
   }
   
   .UPFI-light-full-card .UPFI-full-card-light {
@@ -35,18 +50,22 @@
   }
   
   .UPFI-light-full-card .a-quintessential {
-    color: #000000;
     font-family: "Livvic-Medium", Helvetica;
     font-size: 14px;
     font-weight: 500;
     left: 10px;
     letter-spacing: -0.17px;
     line-height: normal;
-    position: absolute;
+    /* position: absolute; */
     top: 283px;
     width: 345px;
+    margin-top: 30px;
+    margin-left: 14px;
   }
-  
+
+  /* .overlap {
+    background-color: #222222;
+  } */
 
   .UPFI-light-full-card .UPFI-big-button-instance {
     height: 57px;
@@ -54,5 +73,13 @@
     position: absolute;
     top: 329px;
     width: 248px;
+    
   }
   
+  .dark .apfelstrudel, .dark .a-quintessential {
+    color: white
+  }
+
+  .dark .group {
+    padding-right: 15px;
+  }
