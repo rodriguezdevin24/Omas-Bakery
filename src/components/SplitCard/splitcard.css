@@ -52,7 +52,7 @@
     top: 0;
     max-width: 100%;
     object-fit: cover;
-    background-color: transparent;
+    background-color: #000000;
   }
   
   .UPFI-light-split .schaumrolle {
@@ -102,5 +102,7 @@
   
   .dark .div {
     background-color: #222222;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
   }
   
