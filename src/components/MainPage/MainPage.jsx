@@ -26,6 +26,7 @@ const MainPage = () => {
       <FullCard />
       <TableCellCard/>
       <SplitCard />
+      <Footer/>
       </ThemeProvider>
 
     </div>
