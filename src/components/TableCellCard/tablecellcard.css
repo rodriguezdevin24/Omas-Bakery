@@ -9,6 +9,7 @@ letter-spacing: -0.165px;
 width: 295px;
 height: 38px;
 flex-shrink: 0;
+transform: translate(8px, -10px);
 
 }
  
@@ -20,13 +21,19 @@ flex-shrink: 0;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    transform: translate(-29px, -2px);
 }
+
 .table-container {
     background-color: #222222;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
+    padding: 12px;
+    height: 369px;
+    width: 344px;
+    position: relative;
+    transform: translate(8px, -10px);
+}
   
 .img10 {
     transform: translate(-97px, -30px);
@@ -49,6 +56,7 @@ flex-shrink: 0;
 
 .Header3 {
     color: #FFFFFF;
+    transform: translate(-29px, -2px);
     
 }
 
@@ -69,12 +77,13 @@ flex-shrink: 0;
 .h32 {
     width: 162.552px;
     height: 22px;
-    transform: translate(172px, -234px);
+    transform: translate(-50px, 1px);
 
 }
 
 .Paragraphs {
     color: #FFFFFF;
+    transform: translate(-26px, -2px);
 }
 .p1 {
     margin-left: 19px;
@@ -141,6 +150,8 @@ letter-spacing: -0.165px;
 
 .MI {
     color: #FFFFFF;
+    transform: translate(81px, -93px);
+
 }
 
 .mi1 {
@@ -154,7 +165,7 @@ letter-spacing: -0.165px;
     width: 126.651px;
     height: 30px;
     flex-shrink: 0;
-    transform: translate(278px, -1651px);
+    transform: translate(279px, -1642px);
 }
 
 .mi3 {
@@ -162,6 +173,12 @@ letter-spacing: -0.165px;
     height: 30px;
     flex-shrink: 0;
     transform: translate(278px, -1562px);
+}
+
+.rect {
+    width:10px;
+    height:10px;
+    transform: translate(278px, -1562px); 
 }
 
 .rect1 {
@@ -195,4 +212,13 @@ letter-spacing: -0.165px;
     height: 30px;
     flex-shrink: 0;
     padding:10px;
+} 
+
+.line {
+
 }
+
+.l1 {
+
+}
+
