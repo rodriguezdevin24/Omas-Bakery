@@ -1,7 +1,24 @@
 import React from 'react';
+import { useEffect } from 'react';
 import '../HorizonalScroll/horizontalscroll.css';
+import { useTheme } from '../theme';
+
 
 const HorizonalScroll = () => {
+  const [theme, setTheme] = useTheme();
+  
+  const toggleTheme = () => {
+    if (theme === 'dark') {
+      setTheme('light');
+    } else {
+      setTheme('dark');
+    }
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
     return (
       <div className="box">
         <div className="horizontal-scroll-wrapper">
