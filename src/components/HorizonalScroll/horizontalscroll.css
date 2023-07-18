@@ -16,7 +16,6 @@
 .horizontal-scroll {
   height: 176px;
   left: 0;
- 
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,6 +26,10 @@
 }
 
 .box .overlap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: #222222;
   border-radius: 10px;
   height: 120px;
@@ -159,7 +162,7 @@
 }
 
 .box .text-wrapper {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -173,7 +176,7 @@
 }
 
 .box .text-wrapper-2 {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -187,7 +190,7 @@
 }
 
 .box .text-wrapper-3 {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -201,7 +204,7 @@
 }
 
 .box .text-wrapper-4 {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -215,7 +218,7 @@
 }
 
 .box .apfelstusel {
-  color: #ffffff;
+  color:black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -229,7 +232,7 @@
 }
 
 .box .text-wrapper-5 {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -243,7 +246,7 @@
 }
 
 .box .text-wrapper-6 {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -256,7 +259,7 @@
 }
 
 .box .mandel-ho-rnchen {
-  color: #ffffff;
+  color: black;
   font-family: "Livvic-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
