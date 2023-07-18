@@ -1,0 +1,21 @@
+.UPFI-little-button {
+    background-color: #d6e4ca;
+    border-radius: 100px;
+    height: 28px;
+    position: relative;
+    width: 82px;
+  }
+  
+  .UPFI-little-button .more-info {
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    left: 9px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+  }
+  

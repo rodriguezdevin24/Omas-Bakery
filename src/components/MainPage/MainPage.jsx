@@ -1,8 +1,6 @@
 import React from 'react';
 
 
-
-
 import Navbar from '../NavBar/NavBar';
 import Carousel from '../Carousel/Carousel';
 import HorizonalScroll from '../HorizonalScroll/HorizonalScroll';
@@ -15,7 +13,7 @@ import image4 from '../../SEIcollabAssets/Carousel/Carousel4.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import '../Carousel/carousel.css';
 import '../NavBar/navbar.css';
-// import SplitCard from '../SplitCard/SplitCard';
+import SplitCard from '../SplitCard/SplitCard';
 // import TableCellCard from '../TableCellCard/TableCellCard';
 
 
@@ -29,7 +27,9 @@ const MainPage = () => {
       <Carousel images={images}  showThumbs={false} />
       <HorizonalScroll />
       <FullCard />
+      <SplitCard />
       <Footer />
+
     </div>
   );
 };

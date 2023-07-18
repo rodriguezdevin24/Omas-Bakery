@@ -1,53 +1,26 @@
-.box1 {
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.UPFI-light-full-card {
+    height: 370px;
+    width: 363px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+  
+  .UPFI-light-full-card .UPFI-full-card-light {
+    height: 100%;
     width: 100%;
   }
   
-  .box1 .UPFI-dark-full-card-wrapper {
-    border: 0px none;
-    height: 370px;
-    width: 363px;
+  .UPFI-light-full-card .group {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
   }
   
-  .box1 .UPFI-dark-full-card {
-    height: 370px;
-    left: 0;
-    top: 0;
-    width: 363px;
-  }
-  
-  .box1 .UPFI-light-full-card {
-    height: 370px;
-  }
-  
-  .box1 .overlap-group {
-    height: 370px;
-    position: relative;
-    width: 363px;
-  }
-  
-  .box1 .UPFI-full-card-light {
-    height: 370px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 363px;
-  }
-  
-  .box1 .group {
-    height: 250px;
-    left: -10px;
-    position: absolute;
-    top: -7px;
-    width: 363px;
-    margin-left: 10px;
-  }
-  
-  .box1 .text-wrapper {
-    color: #ffffff;
+  .UPFI-light-full-card .apfelstrudel {
+    color: #000000;
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 20px;
     font-weight: 600;
@@ -61,8 +34,8 @@
     width: 129px;
   }
   
-  .box1 .a-quintessential {
-    color: #ffffff;
+  .UPFI-light-full-card .a-quintessential {
+    color: #000000;
     font-family: "Livvic-Medium", Helvetica;
     font-size: 14px;
     font-weight: 500;
@@ -74,25 +47,12 @@
     width: 345px;
   }
   
-  .box1 .UPFI-big-button {
-    height: 30px;
+
+  .UPFI-light-full-card .UPFI-big-button-instance {
+    height: 57px;
     left: 228px;
     position: absolute;
     top: 329px;
-    width: 127px;
+    width: 248px;
   }
-  
-  .box1 .more-info {
-    color: #222222;
-    font-family: "Poppins-Medium", Helvetica;
-    font-size: 18px;
-    font-weight: 500;
-    left: 19px;
-    letter-spacing: -0.17px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-  }
-  
   
