@@ -59,6 +59,7 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 5px;
     left: 14px;
     letter-spacing: -0.17px;
     line-height: normal;
@@ -67,7 +68,8 @@
     top: 160px;
     width: 102px;
   }
-  
+
+
   .UPFI-light-split .a-delicate-pastry {
     font-family: "Livvic-Regular", Helvetica;
     font-size: 13px;
@@ -76,7 +78,7 @@
     letter-spacing: -0.17px;
     line-height: 14px;
     position: absolute;
-    top: 182px;
+    top: 170px;
     width: 145px;
   }
   
