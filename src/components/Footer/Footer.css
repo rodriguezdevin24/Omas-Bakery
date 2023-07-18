@@ -7,132 +7,147 @@ dark {
   color: #333;
 }
 .UPFI-light-footer {
-  height: 426px;
-  width: 393px;
-}
-.UPFI-light-footer .overlap-group {
-  background-color: #D6E4CA;
-  height: 436px;
-  position: relative;
-  top: -23px;
-}
-.UPFI-light-footer .contact-us {
-  color: #999999;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 13px;
-  letter-spacing: -0.17px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 208px;
-  width: 83px;
-}
-.UPFI-light-footer .about {
-  color: #999999;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 13px;
-  letter-spacing: -0.17px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 241px;
-  width: 46px;
-}
-.UPFI-light-footer .locations {
-  color: #999999;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 13px;
-  letter-spacing: -0.17px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 275px;
-  width: 72px;
-}
-.UPFI-light-footer .wholesale {
-  color: #999999;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 13px;
-  letter-spacing: -0.17px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 308px;
-  width: 79px;
-}
-.UPFI-light-footer .terms-of-service {
-  color: #999999;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 13px;
-  letter-spacing: -0.17px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 342px;
-  width: 124px;
-}
-.UPFI-light-footer .overlap {
-  height: 169px;
-  left: 13px;
-  position: absolute;
-  top: 38px;
-  width: 226px;
-}
-.UPFI-light-footer .oma-s-bakery {
-  color: #000000;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-size: 32px;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: -0.17px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 120px;
-  width: 226px;
-}
-.UPFI-light-footer .donut-logo {
-  height: 121px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 121px;
-}
-.UPFI-light-footer .twitter-logo {
-  height: 32px;
-  left: 265px;
-  position: absolute;
-  top: 366px;
-  width: 30px;
-}
-.UPFI-light-footer .facebook-logo {
-  height: 32px;
-  left: 304px;
-  position: absolute;
-  top: 366px;
-  width: 18px;
-}
-.UPFI-light-footer .instagram-logo {
-  height: 32px;
-  left: 224px;
-  position: absolute;
-  top: 366px;
-  width: 32px;
-}
-.UPFI-light-footer .tiktok-alt-logo {
-  height: 29px;
-  left: 331px;
-  position: absolute;
-  top: 367px;
-  width: 30px;
-}
+    height: 426px;
+    width: 393px;
+  }
+  
+  .UPFI-light-footer .overlap-group {
+    background-color: #d6e4ca;
+    height: 436px;
+    position: relative;
+    top: -23px;
+  }
+  
+  .UPFI-light-footer .contact-us {
+    color: #999999;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 13px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 208px;
+    width: 83px;
+  }
+  
+  .UPFI-light-footer .about {
+    color: #999999;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 13px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 241px;
+    width: 46px;
+  }
+  
+  .UPFI-light-footer .locations {
+    color: #999999;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 13px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 275px;
+    width: 72px;
+  }
+  
+  .UPFI-light-footer .wholesale {
+    color: #999999;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 13px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 308px;
+    width: 79px;
+  }
+  
+  .UPFI-light-footer .terms-of-service {
+    color: #999999;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 13px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 342px;
+    width: 124px;
+  }
+  
+  .UPFI-light-footer .overlap {
+    height: 169px;
+    left: 13px;
+    position: absolute;
+    top: 38px;
+    width: 226px;
+    background-color: transparent;
+  }
+  
+  .UPFI-light-footer .oma-s-bakery {
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    width: 226px;
+  }
+  
+  .UPFI-light-footer .donut-logo {
+    height: 121px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 121px;
+  }
+  
+  .UPFI-light-footer .twitter-logo {
+    height: 32px;
+    left: 265px;
+    position: absolute;
+    top: 366px;
+    width: 30px;
+  }
+  
+  .UPFI-light-footer .facebook-logo {
+    height: 32px;
+    left: 304px;
+    position: absolute;
+    top: 366px;
+    width: 18px;
+  }
+  
+  .UPFI-light-footer .instagram-logo {
+    height: 32px;
+    left: 224px;
+    position: absolute;
+    top: 366px;
+    width: 32px;
+  }
+  
+  .UPFI-light-footer .tiktok-alt-logo {
+    height: 29px;
+    left: 331px;
+    position: absolute;
+    top: 367px;
+    width: 30px;
+  }
+  
