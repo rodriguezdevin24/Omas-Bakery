@@ -77,7 +77,7 @@ transform: translate(8px, -10px);
 .h32 {
     width: 162.552px;
     height: 22px;
-    transform: translate(-50px, 1px);
+    transform: translate(162px, -234px);
 
 }
 
@@ -168,14 +168,6 @@ letter-spacing: -0.165px;
     transform: translateX(-50%);
   }
   
-  .rect1,
-  .rect2,
-  .rect3 {
-    width: 20px;
-    height: 4px;
-    background-color: #333;
-    margin: 8px 0;
-  }
   
 
 
@@ -248,7 +240,7 @@ letter-spacing: -0.165px;
 }
 
 .l1{
-    transform: translate(278px, -1704px);
+    transform: translate(278px, -1696px);
 }
 
 .l2{
