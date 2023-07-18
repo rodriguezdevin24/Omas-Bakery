@@ -1,4 +1,4 @@
-.box {
+.box1 {
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -6,31 +6,30 @@
     width: 100%;
   }
   
-  .box .UPFI-dark-full-card-wrapper {
+  .box1 .UPFI-dark-full-card-wrapper {
     border: 0px none;
     height: 370px;
     width: 363px;
   }
   
-  .box .UPFI-dark-full-card {
+  .box1 .UPFI-dark-full-card {
     height: 370px;
     left: 0;
-    position: fixed;
     top: 0;
     width: 363px;
   }
   
-  .box .UPFI-light-full-card {
+  .box1 .UPFI-light-full-card {
     height: 370px;
   }
   
-  .box .overlap-group {
+  .box1 .overlap-group {
     height: 370px;
     position: relative;
     width: 363px;
   }
   
-  .box .UPFI-full-card-light {
+  .box1 .UPFI-full-card-light {
     height: 370px;
     left: 0;
     position: absolute;
@@ -38,7 +37,7 @@
     width: 363px;
   }
   
-  .box .group {
+  .box1 .group {
     height: 250px;
     left: -10px;
     position: absolute;
@@ -47,7 +46,7 @@
     margin-left: 10px;
   }
   
-  .box .text-wrapper {
+  .box1 .text-wrapper {
     color: #ffffff;
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 20px;
@@ -62,7 +61,7 @@
     width: 129px;
   }
   
-  .box .a-quintessential {
+  .box1 .a-quintessential {
     color: #ffffff;
     font-family: "Livvic-Medium", Helvetica;
     font-size: 14px;
@@ -75,7 +74,7 @@
     width: 345px;
   }
   
-  .box .UPFI-big-button {
+  .box1 .UPFI-big-button {
     height: 30px;
     left: 228px;
     position: absolute;
@@ -83,7 +82,7 @@
     width: 127px;
   }
   
-  .box .more-info {
+  .box1 .more-info {
     color: #222222;
     font-family: "Poppins-Medium", Helvetica;
     font-size: 18px;

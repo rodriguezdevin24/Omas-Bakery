@@ -3,7 +3,7 @@ import './fullcard.css'
 
 const FullCard = () => {
     return (
-        <div className="box">
+        <div className="box1">
           <div className="UPFI-dark-full-card-wrapper">
             <div className="UPFI-dark-full-card">
               <div className="UPFI-light-full-card">
