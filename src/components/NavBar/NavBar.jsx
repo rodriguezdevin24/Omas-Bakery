@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import '../NavBar/navbar.css';
 import { useTheme } from '../theme';
 import logo from '../../SEIcollabAssets/Symbols/Donut Logo.svg';
-import darkIcon from '../../SEIcollabAssets/Switch Elements/Dark/􀆹.svg';
-import lightTransparentIcon from '../../SEIcollabAssets/Switch Elements/Dark/􀆭.svg';
-import lightIcon from '../../SEIcollabAssets/Switch Elements/Light/􀆭.svg';
-import darkTransparentIcon from '../../SEIcollabAssets/Switch Elements/Light/􀆹.svg';
-import redBack from '../../SEIcollabAssets/Switch Elements/Light/Group 30.svg';
-import greenBack from '../../SEIcollabAssets/Switch Elements/Dark/Group 29.svg';
-import rectangle from '../../SEIcollabAssets/Symbols/images/upfi-light-upfi-rectangle-108.png';
+import darkIcon from '../../SEI collab Assets/Switch Elements/Dark/􀆹.svg';
+import lightTransparentIcon from '../../SEI collab Assets/Switch Elements/Dark/􀆭.svg';
+import lightIcon from '../../SEI collab Assets/Switch Elements/Light/􀆭.svg';
+import darkTransparentIcon from '../../SEI collab Assets/Switch Elements/Light/􀆹.svg';
+import rectangle from '../../SEI collab Assets/Symbols/images/upfi-light-upfi-rectangle-108.png';
+//import redBack from '../../SEIcollabAssets/Switch Elements/Light/Group 30.svg';
+//import greenBack from '../../SEIcollabAssets/Switch Elements/Dark/Group 29.svg';
+
 
 function Navbar() {
   const [theme, setTheme] = useTheme();
