@@ -10,7 +10,7 @@ import '../Carousel/carousel.css';
 import '../NavBar/navbar.css';
 // import Footer from '../Footer/Footer';
 // import SplitCard from '../SplitCard/SplitCard';
-// import HorizonalScroll from '../HorizonalScroll/HorizonalScroll';
+import HorizonalScroll from '../HorizonalScroll/HorizonalScroll';
 // import FullCard from '../FullCard/FullCard';
 // import SplitCard from '../SplitCard/SplitCard';
 // import TableCellCard from '../TableCellCard/TableCellCard';
@@ -24,6 +24,7 @@ const MainPage = () => {
     <div>
       <Navbar /> 
       <Carousel images={images}  showThumbs={false} />
+      <HorizonalScroll/>
     </div>
   );
 };

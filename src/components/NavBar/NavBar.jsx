@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import '../NavBar/navbar.css'; // Import your CSS file
-import logo from '../../SEI collab Assets/Symbols/Donut Logo.svg';
+import logo from '../../SEIcollabAssets/Symbols/Donut Logo.svg';
 import darkIcon from '../../SEI collab Assets/Switch Elements/Dark/􀆹.svg';
 import lightTransparentIcon from '../../SEI collab Assets/Switch Elements/Dark/􀆭.svg';
 import lightIcon from '../../SEI collab Assets/Switch Elements/Light/􀆭.svg';
