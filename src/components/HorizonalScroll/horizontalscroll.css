@@ -13,6 +13,7 @@
   overflow-x: scroll;
   scroll-snap-type: mandatory;
   overflow-y: hidden;
+  margin-bottom: 30px;
 }
 
 .horizontal-scroll {
@@ -24,6 +25,7 @@
   margin-top: 20px;
   overflow-x: auto;
   white-space: nowrap;
+  
 }
 
 .box .overlap {
