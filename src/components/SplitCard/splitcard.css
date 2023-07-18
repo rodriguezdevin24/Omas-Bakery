@@ -1,0 +1,68 @@
+.UPFI-split-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UPFI-light-split {
+  height: 316px;
+  width: 170px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.UPFI-light-split .div {
+  height: 316px;
+  position: relative;
+}
+
+.UPFI-light-split .UPFI-split-card-dark {
+  height: 316px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 170px;
+}
+
+.UPFI-light-split .group {
+  max-height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.UPFI-light-split .schaumrolle {
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 14px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  width: 102px;
+}
+
+.UPFI-light-split .a-delicate-pastry {
+  color: #000000;
+  font-family: "Livvic-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: -0.17px;
+  line-height: 14px;
+  position: absolute;
+  top: 182px;
+  width: 145px;
+}
+
+.UPFI-light-split .UPFI-little-button-instance {
+  left: 85px !important;
+  position: absolute !important;
+  top: 278px !important;
+}

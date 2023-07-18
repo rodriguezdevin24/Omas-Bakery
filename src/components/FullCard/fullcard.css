@@ -1,0 +1,57 @@
+.UPFI-light-full-card {
+    height: 370px;
+    width: 363px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+  
+  .UPFI-light-full-card .UPFI-full-card-light {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .UPFI-light-full-card .group {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .UPFI-light-full-card .apfelstrudel {
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 7px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 254px;
+    white-space: nowrap;
+    width: 129px;
+  }
+  
+  .UPFI-light-full-card .a-quintessential {
+    color: #000000;
+    font-family: "Livvic-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 10px;
+    letter-spacing: -0.17px;
+    line-height: normal;
+    position: absolute;
+    top: 283px;
+    width: 345px;
+  }
+  
+  .UPFI-light-full-card .UPFI-big-button-instance {
+    height: 57px;
+    left: 228px;
+    position: absolute;
+    top: 329px;
+    width: 248px;
+  }
+  
