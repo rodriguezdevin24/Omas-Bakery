@@ -31,6 +31,8 @@ function TableCellCard() {
         <UpfiLittleButton className="UP1" />
           <UpfiLittleButton className="UP2" />
           <UpfiLittleButton className="UP3" /> 
+          <UpfiLittleButton className="UP4" />
+          <UpfiLittleButton className="UP5" /> 
 
         <div className='rect'>
           <div className="rect1"></div>
