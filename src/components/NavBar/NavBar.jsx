@@ -7,8 +7,6 @@ import lightTransparentIcon from '../../SEI collab Assets/Switch Elements/Dark/�
 import lightIcon from '../../SEI collab Assets/Switch Elements/Light/􀆭.svg';
 import darkTransparentIcon from '../../SEI collab Assets/Switch Elements/Light/􀆹.svg';
 import rectangle from '../../SEI collab Assets/Symbols/images/upfi-light-upfi-rectangle-108.png';
-//import redBack from '../../SEIcollabAssets/Switch Elements/Light/Group 30.svg';
-//import greenBack from '../../SEIcollabAssets/Switch Elements/Dark/Group 29.svg';
 
 
 function Navbar() {
@@ -45,10 +43,22 @@ function Navbar() {
           {/* Uncomment the desired icon images */}
           {/* <img src={greenBack} alt="green" className="icon green-back" /> 
           <img src={redBack} alt="red" className="icon red-back" /> */}
-          <img src={lightIcon} alt="light" className="icon light-icon" />
+          {/* {theme === dark && <html tag></html>} */}
+
+         {theme === 'dark' && <>
+          {/* transparentsun */}
           <img src={lightTransparentIcon} alt="lighttrans" className="icon light-transparent-icon" />
+          {/* darkmoon */}
+          <img src={darkIcon} alt="dark" className="icon dark-icon" /> </>
+          }
+
+          {theme === 'light' && <>
+          {/* redlighticon */}
+          <img src={lightIcon} alt="light" className="icon light-icon" /> 
+          {/* transparentmoon */}
           <img src={darkTransparentIcon} alt="darktrans" className="icon dark-transparent-icon" />
-          <img src={darkIcon} alt="dark" className="icon dark-icon" />
+          </>}
+
         </span>
       </label>
     </nav>
