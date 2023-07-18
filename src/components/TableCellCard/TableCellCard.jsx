@@ -34,7 +34,7 @@ function TableCellCard() {
           <div className="mi3">More info</div>
         </div>
 
-        <div className='rect>'>
+        <div className='rect'>
           <div className="rect1"></div>
           <div className="rect2"></div>
           <div className="rect3"></div>
