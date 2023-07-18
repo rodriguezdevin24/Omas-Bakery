@@ -1,6 +1,5 @@
-import React from 'react';
-
-
+import React, { useContext } from 'react';
+import { ThemeProvider } from '../ThemeContext';
 import Navbar from '../NavBar/NavBar';
 import Carousel from '../Carousel/Carousel';
 import HorizonalScroll from '../HorizonalScroll/HorizonalScroll';
@@ -23,13 +22,14 @@ const MainPage = () => {
     const images = [image1, image2, image3, image4];
   return (
     <div>
+      <ThemeProvider>
       <Navbar /> 
       <Carousel images={images}  showThumbs={false} />
       <HorizonalScroll />
       <FullCard />
       <SplitCard />
       <Footer />
-
+      </ThemeProvider>
     </div>
   );
 };
