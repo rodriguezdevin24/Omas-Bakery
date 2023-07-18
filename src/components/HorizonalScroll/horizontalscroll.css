@@ -1,0 +1,273 @@
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box .horizontal-scroll-wrapper {
+  border: 0px none;
+  height: 176px;
+  position: relative;
+  width: fit-content;
+  overflow-x: scroll;
+  scroll-snap-type: mandatory;
+}
+
+.horizontal-scroll {
+  height: 176px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.box .overlap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #222222;
+  border-radius: 10px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  min-width: 120px;
+}
+
+.box .rectangle {
+  height: 73px;
+  left: 15px;
+  object-fit: cover;
+  top: 23px;
+  width: 90px;
+
+}
+
+.box .img {
+    height: 73px;
+    left: 23px;
+    top: 23px;
+    width: 73px;
+  }
+  
+  .box .rectangle-wrapper {
+      background-color: #222222;
+      border-radius: 10px;
+      height: 120px;
+      left: 560px;
+      
+      top: 0;
+      width: 120px;
+  }
+  
+  .box .rectangle-2 {
+      display: flex;
+      height: 84px;
+      left: 12px;
+      
+      top: 18px;
+      width: 96px;
+  }
+  
+  .box .img-wrapper {
+      background-color: #222222;
+      border-radius: 10px;
+      height: 120px;
+      left: 140px;
+      
+      top: 0;
+      width: 120px;
+  }
+  
+  .box .overlap-group {
+    background-color: #222222;
+    border-radius: 10px;
+    height: 120px;
+    left: 280px;
+    
+    top: 0;
+    width: 120px;
+}
+.box .rectangle-3 {
+  height: 73px;
+  left: 11px;
+  
+  top: 23px;
+  width: 97px;
+}
+
+.box .div {
+  background-color: #222222;
+  border-radius: 10px;
+  height: 120px;
+  left: 420px;
+  
+  top: 0;
+  width: 120px;
+}
+
+.box .rectangle-4 {
+  height: 85px;
+  left: 11px;
+  
+  top: 17px;
+  width: 98px;
+}
+
+.box .overlap-2 {
+  background-color: #222222;
+  border-radius: 10px;
+  height: 120px;
+  left: 700px;
+  
+  top: 0;
+  width: 120px;
+}
+
+.box .rectangle-5 {
+  height: 91px;
+  left: 11px;
+  top: 14px;
+  width: 98px;
+}
+
+.box .overlap-3 {
+  background-color: #222222;
+  border-radius: 10px;
+  height: 120px;
+  left: 840px;
+  top: 0;
+  width: 120px;
+}
+
+.box .rectangle-6 {
+  height: 80px;
+  left: 5px;
+  top: 20px;
+  width: 109px;
+}
+
+.box .overlap-group-2 {
+  background-color: #222222;
+  border-radius: 10px;
+  height: 120px;
+  left: 980px;
+  
+  top: 0;
+  width: 120px;
+}
+
+.box .text-wrapper {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .text-wrapper-2 {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 280px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .text-wrapper-3 {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 560px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .text-wrapper-4 {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 840px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .apfelstusel {
+  color:black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 140px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .text-wrapper-5 {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 420px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .text-wrapper-6 {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 700px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  text-align: center;
+  top: 126px;
+  width: 120px;
+}
+
+.box .mandel-ho-rnchen {
+  color: black;
+  font-family: "Livvic-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 980px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  
+  text-align: center;
+  top: 126px;
+  width: 132px;
+}
+
