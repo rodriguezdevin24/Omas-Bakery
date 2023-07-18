@@ -3,6 +3,7 @@ import img10 from '../../SEIcollabAssets/Cards/Stacked Card/stackedcard1.png';
 import img20 from '../../SEIcollabAssets/Cards/Stacked Card/stackedcard2.png';
 import img30 from '../../SEIcollabAssets/Cards/Stacked Card/stackedcard3.png';
 import '../TableCellCard/tablecellcard.css';
+import line from '../../SEIcollabAssets/Symbols/upfi-light-upfi-dark-upfi-light-upfi-light-upfi-light-rectangle-25.png';
 
 function TableCellCard() {
   return (
@@ -28,14 +29,24 @@ function TableCellCard() {
         </div>
 
         <div className="MI">
-          <div className="mi1">More info</div>
-          <div className="rect1"></div>
+          <div className="mi1" >More info</div>
           <div className="mi2">More info</div>
-          <div className="rect2"></div>
           <div className="mi3">More info</div>
+        </div>
+
+        <div className='rect>'>
+          <div className="rect1"></div>
+          <div className="rect2"></div>
           <div className="rect3"></div>
+          </div>
+
+<div className='line-container'>
+        <img src={line} alt="rectangle" className="l1" />
+        <img src={line} alt="rectangle" className="l2" />
+        <img src={line} alt="rectangle" className="l3" />
         </div>
       </div>
+
     </>
   );
 }
