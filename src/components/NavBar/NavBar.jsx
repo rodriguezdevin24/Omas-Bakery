@@ -9,7 +9,7 @@ import lightIcon from '../../SEI collab Assets/Switch Elements/Light/􀆭.svg';
 import darkTransparentIcon from '../../SEI collab Assets/Switch Elements/Light/􀆹.svg';
 import redBack from '../../SEI collab Assets/Switch Elements/Light/Group 30.svg';
 import greenBack from '../../SEI collab Assets/Switch Elements/Dark/Group 29.svg';
-import rectangle from '../../images/upfi-light-upfi-rectangle-108.png';
+import rectangle from '../../SEI collab Assets/Symbols/images/upfi-light-upfi-rectangle-108.png';
 
 function Navbar() {
   const [theme, setTheme] = useState('dark');
