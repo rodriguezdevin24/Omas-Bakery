@@ -4,7 +4,7 @@ import "./splitcard.css";
 import { useTheme } from '../theme';
 
 const SplitCard = ({ className }) => {
-    const [theme, setTheme] = useTheme();
+    const [theme] = useTheme();
 
     useEffect(() => {
       document.body.className = theme;
