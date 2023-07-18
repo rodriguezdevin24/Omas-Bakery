@@ -1,0 +1,17 @@
+.carousel-image {
+    width: 393px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.carousel-image.active {
+    opacity: 1;
+}
+.carousel .thumbs-wrapper {
+    display: none !important;
+  }
+  .carousel .control-dots {
+    display: none !important;
+}
